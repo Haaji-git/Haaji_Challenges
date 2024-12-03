@@ -4,116 +4,215 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
 
+  <main id="main-content">     
 
-  <div id="testimonials">
-  
-        <div class="daniel-testimonial testimonial One">
-            <div class="daniel profile profile">
-              <img src="images/image-daniel.jpg" alt="daniel-image">
-              <h4 class="profile_name">Daniel Clifford <br>
-                <span class="verified">Verified Graduate</span>
-              </h4>
-            </div>
-            <h3 class="testimonial-heads">
-              I received a job offer mid-course, and the subjects I learned were current, if not more so,
-              in the company I joined. I honestly feel I got every penny’s worth.
-            </h3>
-            <p class="testimonial_desc">
-              “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
-              transition and have heard some people who had an amazing experience here. I signed up
-              for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
-              The next 12 weeks was the best - and most grueling - time of my life. Since completing
-              the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
-            </p>
-        </div>
-
-      <div class="jonathan-testimonial testimonial Two">
-          <div class="jonathan-profile profile">
-            <img src="images/image-jonathan.jpg" alt="">
-            <h4 class="profile_name">
-              Jonathan Walters <br>
-              <span class="verified">Verified Graduate</span>
-            </h4>
-          </div>
-          <h3 class="testimonial-heads">The team was very supportive and kept me motivated</h3>
-          <p class="testimonial_desc">
-            “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
-            for a big company. This was one of the best investments I’ve made in myself. ”
-          </p>
+    <header id="header">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Logo image">
       </div>
 
-        <div class="jeanette-testimonial white-testimonial testimonial Three">
-          <div class="jeanette-profile profile">
-            <img src="images/image-jeanette.jpg" alt="">
-            <h4 class="profile_name">
-              Jeanette Harmon <br>
-              <span class="verified">Verified Graduate</span>
-            </h4>
+      <nav class="nav">
+        <ul>
+          <a href="#nav-items">
+            <li>Features</li>
+          </a>
+          <a href="#nav-items">
+            <li>Team</li>
+          </a>
+          <a href="#nav-items">
+            <li>Sign In</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+          <div class="hero">
+            <img src="images/illustration-intro.png" alt="files icons" class="collaboration-img">
           </div>
-          <h3 class="testimonial-heads">An overall wonderful and rewarding experience</h3>
-          <p class="testimonial_desc">
-            “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
-            while doing something I love. ”
-          </p>
-        </div>
+      <div class="wrapper">
+            <div class="hero_text">
+              <h1> All your files in one secure location, accessible anywhere.</h1>
+              <p>Fylo stores all your most important files in one secure location. Access them wherever 
+                you need, share and collaborate with friends family, and co-workers.</p>
+                <button class="hero-btn">Get Started</button>
+            </div>
+           
+            <div class="Fylo-services">
+                <div class="Fylo-products products">
+                  <div class="file-eccess">
+                    <img src="images/icon-access-anywhere.svg" alt="File access anywhere">
+                    <h3>Access your files, anywhere</h3>
+                    <p>The ability to use a smartphone, tablet, or computer to access your account means your 
+                      files follow you everywhere.</p>
+                  </div>
 
-        <div class="patrick-testimonial testimonial Four">
-          <div class="patrick-profile profile">
-            <img src="images/image-patrick.jpg" alt="">
-            <h4 class="profile_name">
-              Patrick Abrams <br>
-              <span class="verified">Verified Graduate</span>
-            </h4>
+                  <div class="file-security ">
+                    <img src="images/icon-security.svg" alt="security-icon">
+                    <h3>Security you can trust</h3>
+                    <p>2-factor authentication and user-controlled encryption are just a couple of the security 
+                      features we allow to help secure your files.</p>
+                  </div>
+
+                  <div class="file-collaboration">
+                    <img src="images/icon-collaboration.svg" alt="collaboration-icon">
+                    <h3>Real-time collaboration</h3>
+                    <p> Securely share files and folders with friends, family and colleagues for live collaboration. 
+                      No email attachments required.</p>
+                  </div>
+
+                  <div class="file-storage">
+                    <img src="images/icon-any-file.svg" alt="file-icons">
+                    <h3>Store any type of file</h3>
+                    <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+                      file types to be securely stored and shared.</p>
+                  </div>
+                </div>
+
+                <div class="stay-productive">
+                  <img src="images/illustration-stay-productive.png" alt="productive-icon">
+                  <div class="productive-desc">
+                    <h2>Stay productive, wherever you are</h2>
+                    <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+                    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+
+                    <div class="how-fylo-works">
+                      <a href="#">See how Fylo works</a>
+                      <div class="underline"></div>
+                      <img src="images/icon-arrow.svg" alt="arrow-image arrow-img" >
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+              <div class="testimonial-section">
+                <img src="images/bg-quotes.png" alt="" class="quote-img">
+                <div class="testimonial-one testimonial">
+                  <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                  <div class="testimo-profile">
+                    <img src="images/profile-1.jpg" alt="">
+                    <div class="profile-name">
+                      <h4> Satish Patel <br>
+                        <span>Founder & CEO, Huddle</span></h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonial-two testimonial">
+                  <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                  <div class="testimo-profile">
+                    <img src="images/profile-2.jpg" alt="">
+                    <div class="profile-name">
+                      <h4>Bruce McKenzie <br>
+                        <span>Founder & CEO, Huddle</span></h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonial-three testimonial">
+                  <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                  <div class="testimo-profile">
+                    <img src="images/profile-3.jpg" alt="">
+                    <div class="profile-name">
+                      <h4>Iva Boyd<br>
+                        <span>Founder & CEO, Huddle</span></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+
+        <div class="form-register">
+          <h3>Get early access today</h3>
+          <p>
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+            questions, our support team would be happy to help you.
+          </p>
+          <div class="form">
+            <input type="email" name="email" placeholder="email@example.com">
+            <button class="access-btn">Get Started For Free</button>
           </div>
-          <h3 class="testimonial-heads">
-            Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
-            learning from their experiences was easy.
-          </h3>
-          <p class="testimonial_desc">
-            “ The staff seem genuinely concerned about my progress which I find really refreshing. The program
-            gave me the confidence necessary to be able to go out in the world and present myself as a capable
-            junior developer. The standard is above the rest. You will get the personal attention you need from
-            an incredible community of smart and amazing people. ”
-          </p>
         </div>
+      </div> 
+      
+      
+      <footer>
+        <div class="company-info">
+            <div class="logo">
+              <img src="images/logo.svg" alt="">
+            </div>
 
-        <div class="kira-testimonial white-testimonial testimonial Five">
-          <div class="kira-profile profile">
-            <img src="images/image-kira.jpg" alt="">
-            <h4 class="profile_name">
-              Kira Whittle <br>
-              <span class="verified">Verified Graduate</span>
-            </h4>
+            <div class="company-location">
+              <img src="images/icon-location.svg" alt="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua
+              </p>
+            </div>
+          </div>  
+
+          <div class="contact-us">
+            <div class="phone">
+              <img src="images/icon-phone.svg" alt="">
+              <p>+1-543-123-4567</p>
+            </div>
+
+            <div class="email">
+              <img src="images/icon-email.svg" alt="">
+              <p>example@fylo.com</p>
+            </div>
           </div>
-          <h3 class="testimonial-heads">Such a life-changing experience. Highly recommended!</h3>
-          <p class="testimonial_desc">
-            “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
-            professionals who can help me learn programming step by step. I was encouraged to enroll by a former
-            student of theirs who can only say wonderful things about the program. The entire curriculum and staff
-            did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team
-            project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial
-            could ever have. In fact, I’ve often referred to it during interviews as an example of my developent
-            experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers.
-            100% recommend! ”
-          </p>
-        </div>
-  
+        
 
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+          <div class="quick-links">
+            <div class="about-us">
+              <ul>
+                <li>About Us</li>
+                <li>Jobs</li>
+                <li>Press</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+          </div>   
+
+            <div class="legal-links">
+              <ul>
+                <li>Contact Us</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+              </ul>
+            </div>
+
+            <div class="social-links">
+              <i class="fa-brands fa-facebook-f facebook social-link"></i>
+              <i class="fa-brands fa-twitter social-link"></i>
+              <i class="fa-brands fa-instagram social-link"></i>
+            </div>   
+        </footer>
+  </main>
+    <!-- <div class="designed-by">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Hassan Ahmed Hassan</a>.
+      </p>
+    </div> -->
 </body>
 </html>
