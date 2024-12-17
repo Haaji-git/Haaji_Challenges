@@ -13,32 +13,26 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
-- Dark Blue (main background): hsl(218, 28%, 13%)
-- Dark Blue (footer background): hsl(216, 53%, 9%)
-- Dark Blue (testimonials background): hsl(219, 30%, 18%)
-
-### Accent
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
 
 ### Neutral
 
-- White: hsl(0, 0%, 100%);
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
 
 ## Typography
 
-### Body Copy
+### Headings
 
-- Font size: 14px
-
-### Headings, Call-to-actions, Header Navigation
-
-- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
-- Weights: 400, 700
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
 
 ### Body
 
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 700
+- Weights: 400, 600, 700
 
 ## Icons
 
