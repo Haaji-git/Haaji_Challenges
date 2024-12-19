@@ -5,170 +5,152 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/animations.min.css" integrity="sha512-GKHaATMc7acW6/GDGVyBhKV3rST+5rMjokVip0uTikmZHhdqFWC7fGBaq6+lf+DOS5BIO8eK6NcyBYUBCHUBXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 <body>
 
-  <div class="main-content">
+  <div class="page-header">
+    <div class="page-logo">
+      <img src="images/logo.svg" alt="" class="logo-img">
+    </div>
+  </div>
+<main class="main-content">
+  <div class="page-hero">
 
-    <header class="header">
-      <div class="logo">
-        <img src="images/logo-header.svg" alt="this is the logo">
+    <h1>A history of everything you copy</h1>
+    <p>
+      Clipboard allows you to track and organize everything you
+      copy. Instantly access your clipboard on all your devices.
+    </p>
+    <div class="btns">
+      <button class="btn green-btn">Download for iOS</button>
+      <button class="btn blue-btn">Download for Mac</button>
+    </div>
+  </div>
+
+    <div class="snippets-desc">
+      <h1>Keep track of your snippets</h1>
+      <p>
+        Clipboard instantly stores any item you copy in the cloud,
+        meaning you can access your snippets immediately on all your
+        devices. Our Mac and iOS apps will help you organize everything.
+      </p>
+    </div>
+  
+    <div class="clipboard-advantages">
+      <div class="clipboard-pc-image">
+        <img src="images/image-computer.png" alt="" class="pc-image">
       </div>
-    
-      <div class="btn">
-        <button>Try It Free</button>
-      </div>
-    </header> 
-    <!-- section----one -->
 
-    <div class="page-hero">
-      <div class="hero-desc">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-          Create connections with your users as you engage in genuine discussion.
-        </p>
-
-        <button class="bttn">Get Started For Free</button>
-      </div> 
-      <img src="images/screen-mockups.svg" alt="screen mockups" class="mockup-img">
-      <div class="stats"> 
-        
-          <div class="communities">
-            <img src="images/icon-communities.svg" alt="communities icon">
-          <h1>1.4k+</h1>
-          <p class="dark-text">Communities Formed</p>
+      <div class="products">
+        <div class="produts-heading">
+          <h3>Quick Search</h3>
         </div>
+          <p>Easily search your snippets by content, category, web address, application, and more.</p>
 
-        <div class="messages">
-          <img src="images/icon-messages.svg" alt="">   
-          <h1>2.7m+</h1>
-          <p class="dark-text">Messages Sent</p>
+        <div class="produts-heading">
+          <h3>iCloud Sync</h3>
         </div>  
-      </div>
-    </div>  
-
-    <!-- section-----two -->
-      <section class="community-section">
-
-        <section class="community-section1">
-          <img src="images/bg-section-top-desktop-1.svg" alt="" class="top-curved-desktop-img">
-          <img src="images/bg-section-top-mobile-1.svg" alt="" class="top-curved-mobile-img">
-
-          <div class="grow-together community">
-            <div class="grow-together-img">
-              <img src="images/illustration-grow-together.svg" alt="grow-togather">
-            </div>
-            <div class="grow-together-text text">
-              <h1>Grow Together</h1>
-              <p>
-                Generate meaningful discussions with your audience and build a strong, loyal community.
-                Think of the insightful conversations you miss out on with a feedback form.
-              </p>
-            </div>
-          </div>
-
-          <img src="images/bg-section-bottom-mobile-2.svg" alt="" class="bottom-curved-mobile-img">
-          <img src="images/bg-section-bottom-desktop-2.svg" alt="" class="bottom-curved-desktop-img">
-        </section>
-
-      <section class="community-section2">     
-        <div class="conversation community">
-          <img src="images/illustration-flowing-conversation.svg" alt="conversation image" class="img">
-          <div class="conversation-text text">
-            <h1>Flowing Conversations</h1>
-            <p>
-              You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-              just-in-time loading for a more natural flow.
-            </p>
-          </div>
-        </div>
-      </section>  
-
-        <section class="community-section3">
-          <img src="images/bg-section-top-desktop-1.svg" alt="" class="top-curved-desktop-img">
-          <img src="images/bg-section-top-mobile-1.svg" alt="" class="top-curved-mobile-img">
-          <div class="users community">
-              <img src="images/illustration-your-users.svg" alt="users image" class="users-img" >
-            <div class="users-text text">
-              <h1>Your Users</h1>
-              <p>
-                It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-                once signed in to your app, your users can start chatting immediately.
-              </p>
-            </div>
-          </div>
-          <img src="images/bg-section-bottom-mobile-2.svg" alt="" class="bottom-curved-mobile-img">
-          <img src="images/bg-section-bottom-desktop-2.svg" alt="" class="bottom-curved-desktop-img">
-        </section>
-      </section>
-    
-    <div class="ready-to-build-section">
-      <h1>Ready To Build Your Community?</h1>
-      <button class="bttn">Get Started For Free</button>
-    </div>    
-  </div> 
-
- 
-    <footer>
-      <img src="images/bg-footer-top-desktop.svg" alt="" class="footer-curved-desktop-img">
-      <img src="images/bg-footer-top-mobile.svg" alt="" class="footer-curved-mobile-img">
-      
-      <div class="about-company">
-        <img src="images/logo-footer.svg" alt="" class="footer-logo">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-          vestibulum a, ultrices quis sem.
-        </p>
+           <p>Instantly saves and syncs snippets across all your devices.</p>
         
-        <div class="contact-us">
-          <div class="phone contact">
-            <i class="fa-solid fa-phone-volume"></i>
-            <p>Phone: +252 63 4042283</p>
-          </div>
-    
-          <div class="email contact">
-            <i class="fa-solid fa-envelope"></i>
-            <p>example@huddle.com</p>
-          </div>
-
-          <div class="social-icons">
-            <i class='bx bxl-facebook icon facebook'></i>
-            <i class='bx bxl-twitter icon twitter'></i>
-            <i class='bx bxl-instagram icon instagram'></i>
-          </div>
-        </div>
+        <div class="produts-heading">
+          <h3>Complete History</h3>
+        </div>  
+          <p>Retrieve any snippets from the first moment you started using the app.</p>
       </div>
-
-      <div class="get-In-touch">
-        <h2>Newsletter</h2>
+    </div>
+  
+    <div class="access-clipboard">
+      <div class="access-clipboard-desc">
+        <h1>Access Clipboard anywhere</h1>
         <p>
-          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-          send you spam or pass on your email address
+          Whether you’re on the go, or at your computer, you can access all your Clipboard
+          snippets in a few simple clicks.
         </p>
-
-        <div class="News-updates-regis">
-            <input type="text" name="text" id="input-text">
-          <button class="btn">Subscribe</button>
-        </div>
       </div>
 
-    </footer>
-      <!-- <div class="attribution">
-        <p class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Hassan Ahmed Hassan----Haji-Git.</a>.
-        </p>
-      </div> 
-  -->
+      <div class="devices-image">
+        <img src="images/image-devices.png" alt="" class="tablet-mobile-img">
+      </div>
+    </div>
+  
+    <div class="how-to-use">
+      <div class="use-for-productivity">
+        <h1>Supercharge your workflow</h1>
+        <p>We’ve got the tools to boost your productivity.</p>
+      </div>
+
+      <div class="clipboard-purpose">
+        <div class="use-for-blacklists">
+          <img src="images/icon-blacklist.svg" alt="">
+          <h2>Create blacklists</h2>
+          <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        </div>
+        <div class="use-for-plain-text">
+          <img src="images/icon-text.svg" alt="">
+          <h2>Plain text snippets</h2>
+          <p>Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+        <div class="user-for-quick-preview">
+          <img src="images/icon-preview.svg" alt="">  <h2>Sneak preview</h2>
+          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="companies-logos">
+      <img src="images/logo-google.png" alt="">
+      <img src="images/logo-ibm.png" alt="">
+      <img src="images/logo-microsoft.png" alt="">
+      <img src="images/logo-hp.png" alt="">
+      <img src="images/logo-vector-graphics.png" alt="">
+    </div>
+
+
+    <div class="how-to-get-clipboard">
+      <h2>Clipboard for iOS and Mac OS</h2>
+      <p>
+        Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+        and you’re ready to start adding to your clipboard.
+      </p>
+      <div class="btns">
+        <button class="btn green-btn">Download for iOS</button>
+        <button class="btn blue-btn">Download for Mac</button>
+      </div>
+    </div>
+</main>
+
+ <footer>
+
+  <div class="company-instructions">
+    <div class="page-logo">
+      <img src="images/logo.svg" alt="" class="logo">
+    </div>
+     <div class="company-links">
+       <p>FAQs</p>
+       <p>Contact Us</p>
+       <p>Privacy Policy</p>
+       <p>Press Kit</p>
+       <p>Install Guide</p>
+     </div>
+  </div>
+
+   <div class="social-media-sites">
+    <img src="images/icon-facebook.svg" alt="facebook-icon" class="facebook-icon">
+    <img src="images/icon-twitter.svg" alt="twitter-icon" class="twitter-icon">
+    <img src="images/icon-instagram.svg" alt="instagram-icon"  class="instagram-icon">
+   </div>
+    <!-- by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+    </p> -->
+ </footer> 
 </body>
 </html>
