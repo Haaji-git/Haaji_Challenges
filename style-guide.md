@@ -13,33 +13,31 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Pink: hsl(322, 100%, 66%)
-- Light Pink: hsl(321, 100%, 78%)
-- Light Red: hsl(0, 100%, 63%)
+- Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
 
 ### Neutral
 
-- Very Dark Cyan: hsl(192, 100%, 9%)
-- Very Pale Blue: hsl(207, 100%, 98%)
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%)
 
 ## Typography
 
-### Headings
+### Body Copy
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 700
+- Font size: 18px
 
-### Body
+### Fonts
 
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 600, 700
+- Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
+- Weights: 400, 600
 
 ## Icons
 
-For the social icons, you can use a font icon library. Some suggestions can be found below:
+For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
 
-- [Font Awesome](https://fontawesome.com/)
-- [IcoMoon](https://icomoon.io/)
-- [Ionicons](https://ionicons.com/)
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
